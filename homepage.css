@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f7f9fc, #eef2f5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #2ecc71;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.instrument-selection, .search {
+    margin-bottom: 60px;
+}
+
+.instrument-selection h2, .search h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.instruments {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.instruments button {
+    background: #3498db;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.instruments button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+.search input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.music-item {
+    width: calc(33.333% - 40px);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.music-item:hover {
+    transform: translateY(-5px);
+}
+
+.music-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.music-item h3 {
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Catalog</title>
+    <link rel="stylesheet" href="musiccatalog.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Melody Mentor</h2>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a class="active" href="musiccatalog.html">Music Catalog</a></li>
+                <li><a href="mylibrary.html">My Library</a></li>
+                <li><a href="videolessons.html">Video Lessons</a></li>
+                <li><a href="compose.html">Compose</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <header>
+                <input type="text" id="searchBar" placeholder="Search for music...">
+            </header>
+            <div id="searchResults"></div>
+            <div class="catalog">
+                <h2>Music Catalog</h2>
+                <!-- Violin Books -->
+                <div class="music-item" data-title="">
+                    <img src="shopping (8).webp" alt="Mazas, 75 Melodious Progressive Studies">
+                    <h3>Mazas, 75 Melodious Progressive Studies</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_1'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Violin School, Vol. 1">
+                    <img src="71tVxfknODL._AC_UF1000,1000_QL80_.jpg" alt="Suzuki Violin School, Vol. 1">
+                    <h3>Suzuki Violin School, Vol. 1</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_1'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Violin School, Vol. 2">
+                    <img src="shopping.webp" alt="Suzuki Violin School, Vol. 2">
+                    <h3>Suzuki Violin School, Vol. 2</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_2'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Violin School, Vol. 3">
+                    <img src="suzuki-suzuki-violin-school-volume-3-violin-part-i.webp" alt="Suzuki Violin School, Vol. 3">
+                    <h3>Suzuki Violin School, Vol. 3</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_3'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Violin School, Vol. 4">
+                    <img src="shopping (1).webp" alt="Suzuki Violin School, Vol. 4">
+                    <h3>Suzuki Violin School, Vol. 4</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_4'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Violin School, Vol. 5">
+                    <img src="shopping (2).webp" alt="Suzuki Violin School, Vol. 5">
+                    <h3>Suzuki Violin School, Vol. 5</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_violin_5'">View</button>
+                </div>
+                
+                <!-- Viola Books -->
+                <div class="music-item" data-title="Suzuki Viola School, Vol. 1">
+                    <img src="00-40685_large.jpg" alt="Suzuki Viola School, Vol. 1">
+                    <h3>Suzuki Viola School, Vol. 1</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_viola_1'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Viola School, Vol. 2">
+                    <img src="shopping (3).webp" alt="Suzuki Viola School, Vol. 2">
+                    <h3>Suzuki Viola School, Vol. 2</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_viola_2'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Viola School, Vol. 3">
+                    <img src="shopping (4).webp" alt="Suzuki Viola School, Vol. 3">
+                    <h3>Suzuki Viola School, Vol. 3</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_viola_3'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Viola School, Vol. 4">
+                    <img src="shopping (6).webp" alt="Suzuki Viola School, Vol. 4">
+                    <h3>Suzuki Viola School, Vol. 4</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_viola_4'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Viola School, Vol. 5">
+                    <img src="shopping (7).webp" alt="Suzuki Viola School, Vol. 5">
+                    <h3>Suzuki Viola School, Vol. 5</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_viola_5'">View</button>
+                </div>
+
+                <!-- Cello Books -->
+                <div class="music-item" data-title="Suzuki Cello School, Vol. 1">
+                    <img src="cello1.jpg" alt="Suzuki Cello School, Vol. 1">
+                    <h3>Suzuki Cello School, Vol. 1</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_cello_1'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Cello School, Vol. 2">
+                    <img src="cello2.jpg" alt="Suzuki Cello School, Vol. 2">
+                    <h3>Suzuki Cello School, Vol. 2</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_cello_2'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Cello School, Vol. 3">
+                    <img src="cello3.jpg" alt="Suzuki Cello School, Vol. 3">
+                    <h3>Suzuki Cello School, Vol. 3</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_cello_3'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Cello School, Vol. 4">
+                    <img src="cello4.jpg" alt="Suzuki Cello School, Vol. 4">
+                    <h3>Suzuki Cello School, Vol. 4</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_cello_4'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Cello School, Vol. 5">
+                    <img src="cello5.jpg" alt="Suzuki Cello School, Vol. 5">
+                    <h3>Suzuki Cello School, Vol. 5</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_cello_5'">View</button>
+                </div>
+
+                <!-- Bass Books -->
+                <div class="music-item" data-title="Suzuki Bass School, Vol. 1">
+                    <img src="bass1.jpg" alt="Suzuki Bass School, Vol. 1">
+                    <h3>Suzuki Bass School, Vol. 1</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_bass_1'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Bass School, Vol. 2">
+                    <img src="bass2.jpg" alt="Suzuki Bass School, Vol. 2">
+                    <h3>Suzuki Bass School, Vol. 2</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_bass_2'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Bass School, Vol. 3">
+                    <img src="bass3.jpg" alt="Suzuki Bass School, Vol. 3">
+                    <h3>Suzuki Bass School, Vol. 3</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_bass_3'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Bass School, Vol. 4">
+                    <img src="bass4.jpg" alt="Suzuki Bass School, Vol. 4">
+                    <h3>Suzuki Bass School, Vol. 4</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_bass_4'">View</button>
+                </div>
+                <div class="music-item" data-title="Suzuki Bass School, Vol. 5">
+                    <img src="bass5.jpg" alt="Suzuki Bass School, Vol. 5">
+                    <h3>Suzuki Bass School, Vol. 5</h3>
+                    <button class="favorite-btn">Favorite</button>
+                    <button class="view-btn" onclick="window.location.href='viewer.html?piece=suzuki_bass_5'">View</button>
+                </div>
+            </div>
+            <div id="notification" class="notification"></div>
+        </div>
+    </div>
+    <script src="musiccatalog.js"></script>
+</body>
+</html>

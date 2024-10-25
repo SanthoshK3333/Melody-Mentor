@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Mentor</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Melody Mentor</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="musiccatalog.html">Music Catalog</a></li>
+                    <li><a href="mylibrary.html">My Library</a></li>
+                    <li><a href="practicevideos.html">Practice Videos</a></li>
+                    <li><a href="videolessons.html">Video Lessons</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h2>Your Musical Journey Starts Here</h2>
+                <p>Choose your instrument and explore a world of music, practice videos, and more!</p>
+            </section>
+            <section class="instrument-selection">
+                <h2>Select Your Instrument</h2>
+                <div class="instruments">
+                    <button data-instrument="violin">Violin</button>
+                    <button data-instrument="viola">Viola</button>
+                    <button data-instrument="cello">Cello</button>
+                    <button data-instrument="double bass">Double Bass</button>
+                    <button data-instrument="harp">Harp</button>
+                </div>
+            </section>
+            <section class="search">
+                <h2>Find Your Music</h2>
+                <input type="text" id="searchBar" placeholder="Search for music...">
+                <div id="searchResults"></div>
+            </section>
+        </main>
+    </div>
+    <script src="homepage.js"></script>
+</body>
+</html>
